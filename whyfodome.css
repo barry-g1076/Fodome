@@ -1,0 +1,183 @@
+/* Header Text Styles  */
+.header-text {
+  position: relative;
+  padding: 10px;
+}
+
+.bg-text {
+  color: #f54749;
+  font-size: 10rem;
+  opacity: 10%;
+}
+.main-text {
+  color: #f54749;
+  position: absolute;
+  top: 40%;
+  font-size: 2.5rem;
+}
+#underline {
+  width: 5%;
+  height: 8px;
+  background-color: #ffa756;
+  border-radius: 20px;
+  position: absolute;
+  top: 60%;
+}
+
+/* Hero Section */
+#why_fodo_hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 10px 10px;
+}
+
+.text {
+  width: 40%;
+  font-size: 1.5rem;
+}
+
+#why_fodo_hero_img {
+  width: 40%;
+}
+/*  Hexagons Styles */
+#hex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    /* margin: 0 auto; */
+
+}
+/* hexagon columns styles */
+.hex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    border: 2px solid #ffa756;
+}
+.hex-column .hex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    /* width: 100%; */
+    background-color:blue ;
+    border-radius: 20px;
+}
+ .hex-column .hex-image{
+    position: relative;
+    /* width: 50%; */
+}
+.hex-column .hex-num :nth-child(1){
+    position: absolute;
+    top: 140%;
+    color: #BC3E3F;
+    opacity: 30%;
+}
+.hex-column .hex-text{
+    font-size: 1.4rem;
+    position: absolute;
+    text-align: center;
+    top: 137%;
+}
+
+/* Hexagon single style */
+.hex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* overflow: hidden; */
+    /* width: 10%; */
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.hex-image {
+    position: relative;
+    /* width: 50%; */
+}
+
+.hex-num {
+    position: absolute;
+    top: 155%;
+    color: #BC3E3F;
+    opacity: 30%;
+}
+
+.hex-text {
+    font-size: 1.4rem;
+    position: absolute;
+    text-align: center;
+    top: 160%;
+}
+
+/* container */
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.container-header-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-header-text h1{
+  color:#f54749;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.container-header-text #underline{
+  position:initial;
+  width: 100px;
+}
+
+.container-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+
+}
+.container-item div{
+  width: 40%;
+}
+.container-item h2{
+  color: #f54749;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.container-item p{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.container-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+@media screen and (max-width: 480px) {
+  /* Header Text Styles */
+  .bg-text {
+    font-size: 4rem;
+  }
+  .main-text {
+    font-size: 1.5rem;
+  }
+  #underline {
+    width: 10%;
+    height: 4px;
+    top: 65%;
+  }
+
+  /* Hero Section */
+  .text {
+    font-size: 0.7rem;
+  }
+}
